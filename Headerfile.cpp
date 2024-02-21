@@ -7,5 +7,5 @@ int main()
     cout<<"Enter the dimensions"<<endl;
     cin>>a>>b>>c;
     boxArea(a,b,c);
-    boxVolume(a,b,c)
+    boxVolume(a,b,c);
 }
