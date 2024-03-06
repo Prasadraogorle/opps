@@ -15,9 +15,10 @@ class ClassC extends ClassA {
         System.out.println("I am from class C inherit from class A");
     }
 }
-/*
- * class ClassD extends ClassC,ClassB{
- * here there is no concept of the multiple inheritance. java eliminates this
+
+  class ClassD extends ClassC,ClassB{
+       }
+ /* here there is no concept of the multiple inheritance. java eliminates this
  * concept. Because
  * In this problem, there is the hierarchical inheritance half part and other
  * one is multiple
@@ -27,7 +28,6 @@ class ClassC extends ClassA {
  * classB classC
  * \ /
  * classD
- * }
  */
 
 public class Diamond {
