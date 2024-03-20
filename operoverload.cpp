@@ -26,8 +26,8 @@ class Complex{
 };
 int main(){
 
-    Complex a(1,4);
-    Complex b(3,5);
+    Complex a(5,3);
+    Complex b(-3,4);
     Complex c=a+b;
     a.print();cout << " + " ;b.print(); cout << " = "; c.print(); cout << endl;
 
