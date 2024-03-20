@@ -12,9 +12,9 @@ class Cal{
 public class methoverload {
     public static void main(String[] args) {
         Cal obj = new Cal();
-        float a=10;
-        float b=20;
-        float c=30;
+        float a=1;
+        float b=2;
+        float c=3;
 
         System.out.println(a + " + " + b + " = " + obj.add(a,b));
         System.out.println(a + " + " + b + " + " + c + " = " + obj.add(a,b,c));
