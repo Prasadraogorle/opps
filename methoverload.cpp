@@ -14,9 +14,9 @@ class Cal{
  int main(){
 
     Cal obj;
-    float a=10;
-    float b=20;
-    float c=30;
+    float a=1;
+    float b=2;
+    float c=3;
 
     cout << a << " + " << b << " = " << obj.add(a,b) << endl;
     cout << a << " + " << b << " + " << c << " = " << obj.add(a,b,c) << endl;
