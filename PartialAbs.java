@@ -4,7 +4,6 @@ abstract class shape {
     void display() {
     }
 }
-
 class Rectangle extends shape {
     float l, b;
 
